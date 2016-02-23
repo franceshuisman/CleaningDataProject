@@ -6,104 +6,104 @@ ACTIVITY
 SUBJECT
   ID number of exprimental subject.
 
-tBodyAcc.mean-XYZ
+tBodyAcc-avgmean-XYZ
   The average mean of time domain signals for body acceleration in the X, Y, or Z direction.
   
-tBodyAcc.std-XYZ
+tBodyAcc-avgstd-XYZ
   The average standard deviation of time domain signals for body acceleration in the X, Y, or Z direction.
 
-tGravityAcc.mean-XYZ
+tGravityAcc-avgmean-XYZ
   The average mean of time domain signals for gravity acceleration in the X, Y or Z direction.
 
-tGravityAcc.std-XYZ
+tGravityAcc-avgstd-XYZ
   The average standard deviation of time domain signals for gravity acceleration in the X, Y or Z direction.
 
-tBodyAccJerk.mean-XYZ
+tBodyAccJerk-avgmean-XYZ
   The average mean of the Jerk time domain signals for body acceleration in the X, Y or Z direction.
 
-tBodyAccJerk.std-XYZ
+tBodyAccJerk-avgstd-XYZ
   The average standard deviation of the Jerk time domain signals for body acceleration in the X, Y or Z direction.
 
-tBodyGyro.mean-XYZ
+tBodyGyro-avgmean-XYZ
   The average mean of the time domain signals for the gyroscope measurement in the X, Y or Z direction.
 
-tBodyGyro.std-XYZ
+tBodyGyro-avgstd-XYZ
   The average standard deviation of the time domain signals for the gyroscope measurement in the X, Y or Z direction.
   
-tBodyGyroJerk.mean-XYZ
+tBodyGyroJerk.-avgmean-XYZ
   The average mean of the Jerk time domain signals for the gyroscope measurement in the X, Y or Z direction.
   
-tBodyGyroJerk.std-XYZ
+tBodyGyroJerk-avgstd-XYZ
   The average standard deviation of the Jerk time domain signals for the gyroscope measurement in the X, Y or Z direction.
 
-tBodyAccMag.mean
+tBodyAccMag-avgmean
   The average mean of the magnitude of tBodyAcc, calculated using the Euclidean norm.
 
-tBodyAccMag.std
+tBodyAccMag-avgstd
   The average standard deviation of the magnitude of tBodyAcc, calculated using the Euclidean norm.
 
-tGravityAccMag.mean
+tGravityAccMag-avgmean
   The average mean of the magnitude of tGravityAcc, calculated using the Euclidean norm.
 
-tGravityAccMag.std
+tGravityAccMag-avgstd
   The average standard deviation of the magnitude of tGravityAcc, calculated using the Euclidean norm.
 
-tBodyAccJerkMag.mean
+tBodyAccJerkMag-avgmean
   The average mean of the magnitude of tBodyAccJerk, calculated using the Euclidean norm.
 
-tBodyAccJerkMag.std
+tBodyAccJerkMag-avgstd
   The average standard deviation of the magnitude of tBodyAccJerk, calculated using the Euclidean norm.
 
-tBodyGyroMag.mean
+tBodyGyroMag-avgmean
   The average mean of the magnitude of tBodyGyro, calculated using the Euclidean norm.
 
-tBodyGyroMag.std
+tBodyGyroMag-avgstd
   The average standard deviation of the magnitude of tBodyGyro, calculated using the Euclidean norm.
   
-tBodyGyroJerkMag.mean
+tBodyGyroJerkMag-avgmean
   The average mean of the magnitude of tBodyGyroJerk, calculated using the Euclidean norm.
 
-tBodyGyroJerkMag.std
+tBodyGyroJerkMag-avgstd
   The average standard deviation of the magnitude of tBodyGyroJerk, calculated using the Euclidean norm.
 
-fBodyAcc.mean-XYZ
+fBodyAcc-avgmean-XYZ
   The average mean of the frequency domain signals for body acceration in the X, Y or Z dimension.
 
-fBodyAcc.std-XYZ
+fBodyAcc-avgstd-XYZ
   The average standard deviation of the frequency domain signals for body acceration in the X, Y or Z dimension.
 
-fBodyAccJerk.mean-XYZ
+fBodyAccJerk-avgmean-XYZ
   The average mean of the Jerk frequency domain signals for body acceration in the X, Y or Z dimension.
 
-fBodyAccJerk.std-XYZ
+fBodyAccJerk-avgstd-XYZ
   The average standard deviation of the Jerk frequency domain signals for body acceration in the X, Y or Z dimension.
 
-fBodyGyro.mean-XYZ
+fBodyGyro-avgmean-XYZ
   The average mean of the frequency domain signals for gyroscope measurement in the X, Y or Z dimension.
 
-fBodyGyro.std-XYZ
+fBodyGyro-avgstd-XYZ
   The average standard deviation of the frequency domain signals for gyroscope measurement in the X, Y or Z dimension.
 
-fBodyAccMag.mean
+fBodyAccMag-avgmean
   The average mean of the magnitude of fBodyAcc, calculated using the Euclidean norm.
 
-fBodyAccMag.std
+fBodyAccMag-avgstd
   The average standard deviation of the magnitude of fBodyAcc, calculated using the Euclidean norm.
 
-fBodyAccJerkMag.mean
+fBodyAccJerkMag-avgmean
   The average mean of the magnitude of fBodyAccJerk, calculated using the Euclidean norm.
 
-fBodyAccJerkMag.std
+fBodyAccJerkMag-avgstd
   The average standard deviation of the magnitude of fBodyAccJerk, calculated using the Euclidean norm.
 
-fBodyGyroMag.mean
+fBodyGyroMag-avgmean
   The average mean of the magnitude of fBodyGyro, calculated using the Euclidean norm.
 
-fBodyGyroMag.std
+fBodyGyroMag-avgstd
   The average standard deviation of the magnitude of fBodyGyro, calculated using the Euclidean norm.
 
-fBodyGyroJerkMag.mean
+fBodyGyroJerkMag-avgmean
   The average mean of the magnitude of fBodyGyroJerk, calculated using the Euclidean norm.
 
-fBodyGyroJerkMag.std
+fBodyGyroJerkMag-avgstd
   The average standard deviation of the magnitude of fBodyGyroJerk, calculated using the Euclidean norm.
