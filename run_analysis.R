@@ -46,6 +46,10 @@ run_analysis <- function() {
   ## Remove redundant join ID, group and average
   finaldata <- datamerge %>% select(-label) %>% group_by(activity, subject) %>% summarise_each(funs(mean))
   
+  ## Update variable names
+  names(finaldata) <- sub("mean\\(\\)", "avgmean", names(finaldata))
+  names(finaldata) <- sub("std\\(\\)", "avgstd", names(finaldata))
+  
   ## Write out new data table
   write.csv(finaldata, "wearablesmean.csv", row.names = FALSE)
   
