@@ -6,7 +6,8 @@ franceshuisman
 
 
 Data were obtained from the below source:
-https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 Tables for the Test and Train sample groups were assembled from files 'subject_test.txt', 'y_test.txt', 'x_test.txt' (for Test data), or 'subject_train.txt', 'y_train.txt', and 'x_train.txt' (for Train data) as follows.
 
