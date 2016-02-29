@@ -1,5 +1,7 @@
 CODE BOOK - DATA CLEANING PROJECT
 
+Below are the variable names used in the final 'wearablesmean' data set. Please see the README for a description of how they were generated.
+
 ACTIVITY: Description of activity for which the data were measured.
   
 SUBJECT: ID number of exprimental subject.
