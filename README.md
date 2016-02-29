@@ -23,3 +23,8 @@ The project contains the following files:
  - 'CodeBook.md': Descriptions of the variables in 'wearablesmean.txt'
  - 'run_analysis.R': The script used to create 'wearablesmean.txt' from the 'Human Activity Recognition Using Smartphones Dataset', Version 1.0
 
+
+Note:
+
+ - The dplyr package must be loaded in R to use run_analysis.R
+
