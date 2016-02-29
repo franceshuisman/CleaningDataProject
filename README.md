@@ -5,7 +5,7 @@ Course project for JHU's Getting and Cleaning Data course on Coursera
 franceshuisman
 
 
-Data were obtained from the below source:
+Data were obtained from the following source:
 
   https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
