@@ -1,5 +1,9 @@
 run_analysis <- function() {
   
+  ## This script is dependent on the package "dplyr". Please load this into R before running the script.
+  ## The unzipped "wearables" folder should be placed in the working directory.
+  
+  ## Set file path
   folder <- "wearables/UCI HAR Dataset"
   
   ## Read feature and activity label data
@@ -37,9 +41,6 @@ run_analysis <- function() {
   ## Merge "test" and "train" data together
   alldata <- rbind(testcomb, traincomb)
   
-  ## Write out final data table
-  ## write.csv(alldata, "wearablesall.csv", row.names = FALSE)
-  
   ## Join by activity label (to get appropriate activity descriptions)
   datamerge <- merge(activities, alldata, by="label")
   
@@ -51,6 +52,6 @@ run_analysis <- function() {
   names(finaldata) <- sub("std\\(\\)", "avgstd", names(finaldata))
   
   ## Write out new data table
-  write.csv(finaldata, "wearablesmean.csv", row.names = FALSE)
+  write.table(finaldata, "wearablesmean.txt", row.names = FALSE)
   
 }
