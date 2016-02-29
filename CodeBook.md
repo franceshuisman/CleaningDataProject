@@ -1,6 +1,6 @@
 CODE BOOK - DATA CLEANING PROJECT
 
-ACTIVITY: Description of activity for which the data wree measured.
+ACTIVITY: Description of activity for which the data were measured.
   
 SUBJECT: ID number of exprimental subject.
 
