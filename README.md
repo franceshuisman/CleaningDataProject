@@ -19,12 +19,10 @@ These final Test and Train tables were clipped together to form a combined data 
 The project contains the following files:
 
  - 'README.md'
- - 'wearablesmean.txt': A tidy data set of average variable means and standard deviations, by activity and subject.
+
+ - 'wearablesmean.txt': A tidy data set of average variable means and standard deviations, by activity and subject. This data should be loaded into R with the option "header = TRUE" in read.table.
+
  - 'CodeBook.md': Descriptions of the variables in 'wearablesmean.txt'
- - 'run_analysis.R': The script used to create 'wearablesmean.txt' from the 'Human Activity Recognition Using Smartphones Dataset', Version 1.0
 
-
-Note:
-
- - The dplyr package must be loaded in R to use run_analysis.R
+ - 'run_analysis.R': The script used to create 'wearablesmean.txt' from the 'Human Activity Recognition Using Smartphones Dataset', Version 1.0. The dplyr package must be loaded in R to run this script.
 
